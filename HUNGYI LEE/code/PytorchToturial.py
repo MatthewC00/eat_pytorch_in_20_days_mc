@@ -10,3 +10,8 @@ class MyModel(nn.Module):
         )
     def forward(self,x):
         return self.net
+    
+import torch
+
+torch.optim.SGD()
+
